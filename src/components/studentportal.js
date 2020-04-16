@@ -44,7 +44,7 @@ class StudentPortal extends React.Component {
     }
 
     componentDidMount(){
-        Axios.get('http://localhost:8080/api/student/getall').then((result)=>{
+        Axios.get('https://blooming-ravine-45730.herokuapp.com/api/student/getall').then((result)=>{
             this.setState({student: result.data });
             console.log(this.state);
         });

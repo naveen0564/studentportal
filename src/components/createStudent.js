@@ -39,7 +39,7 @@ class CreateStudent extends React.Component {
 
   submitFormHandler(event){
         event.preventDefault();
-        Axios.post('http://localhost:8080/api/student/create',this.state).then(result=>{
+        Axios.post('https://blooming-ravine-45730.herokuapp.com/api/student/create',this.state).then(result=>{
             console.log(result.data);
         }); 
   }
