@@ -1,7 +1,5 @@
 import React from 'react';
 import Axios from 'axios';
-import { Link } from 'react-router-dom'
-
 class StudentPortal extends React.Component {
     
     constructor(props)
